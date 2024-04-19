@@ -1,0 +1,9 @@
+*, * ::before, ::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+    background: linear-gradient(to right, red, black);
+
+}

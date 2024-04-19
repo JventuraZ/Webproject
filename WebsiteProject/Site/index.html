@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="icon" type="image/jpg" href="image/Yoshi.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./relogioEstilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e09c423176.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+
+    <nav class="navbar">
+        <a href="BancoY/bancoY.html">Expense Tracker</a>
+        <a href="#"></a>
+        <a href="#"</a>
+        <a href="#"></a>
+        <a href="#"> </a>
+    </nav>
+
+    <main>
+        <div id="parallax">
+            <div class="container">
+                <aside>
+                    <div id="title">
+                        <h2>
+                            Title
+                        </h2>
+                    </div>
+
+
+
+
+
+
+                    <div id="content">
+                        <h3>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio rem nisi sint,
+                            maxime, facilis neque alias iure temporibus recusandae inventore? Repellat id earum tempora
+                            repudiandae quibusdam sequi quae nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio rem nisi sint,
+                            maxime, facilis neque alias iure temporibus recusandae inventore? Repellat id earum tempora
+                            repudiandae quibusdam sequi quae nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio rem nisi sint,
+                            maxime, facilis neque alias iure temporibus recusandae inventore? Repellat id earum tempora
+                            repudiandae quibusdam sequi quae nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio rem nisi sint,
+                            maxime, facilis neque alias iure temporibus recusandae inventore? Repellat id earum tempora
+                            repudiandae quibusdam sequi quae nobis.
+                        </h3>
+                    </div>
+                </aside>
+
+
+
+
+                <section class="conteudo">
+                    <h4 id="contact">Projetos
+                    </h4>
+                    
+                    <a href="relogio.html">
+                        <img src="image/icons8-relógio-30.png" >
+                    </a>
+                    
+
+                    <div id="content">
+                    <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit culpa illum soluta iusto, eum minima numquam sunt? Veritatis autem natus totam, veniam nihil beatae delectus incidunt facilis aliquam repudiandae assumenda.
+                        <section>
+                            <div class="relogio">
+                                <div class="hour"></div>
+                                <div class="min"></div>
+                                <div class="sec"></div>
+                            </div>
+                        </section>
+
+
+                        <a href="relogio.html"></a>
+                        <script src="./relogio.js"></script>
+                    
+                    </h3>
+
+                    
+                </div>
+
+                </section>
+
+                </section>
+                
+                <article>
+                    <h6> this is a arcticle</h6>
+                </article>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Webpage. All rights reserveda.</p>
+    </footer>
+
+    <script> //função para o funcionamento do parallax que segue o mouse
+        (function () {
+            document.addEventListener("mousemove", parallax);
+            const elem = document.querySelector("#parallax");
+            function parallax(e) {
+                let _w = window.innerWidth / 2;
+                let _h = window.innerHeight / 2;
+                let _mouseX = e.clientX;
+                let _mouseY = e.clientY;
+                let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
+                let _depth2 = `${50 - (_mouseX - _w) * 1}% ${50 - (_mouseY - _h) * 0.02}%`;
+                let _depth3 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.06}%`;
+                let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+                elem.style.backgroundPosition = x;
+            }
+
+        })();
+    </script>
+</body>
+
+</html>

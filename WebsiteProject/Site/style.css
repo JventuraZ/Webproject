@@ -1,0 +1,187 @@
+body * {
+
+    :-webkit-scrollbar {
+        display: none;
+    }
+
+    -ms-overflow-style: none;
+
+    scrollbar-width: none;
+
+
+}
+
+
+body {
+    font-family: "Kode Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(9, 34, 62, 1) 100%, rgba(113, 113, 127, 1) 100%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+}
+
+#parallax {
+    position: relative;
+    height: 100vh;
+    background-image: url('image/cyberpunk.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+    background-size: cover;
+    overflow: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container {
+    box-shadow: 5px 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    gap: 1rem;
+    padding: 1cm;
+    /* padding pra ajustar o container e o gap pra distanciar o footer do main */
+
+    /* a width e height aqui servem pra definir o tamanho do quadrado preto, tudo dentro já se ajusta pra responsividade posterior tbm */
+
+}
+
+aside {
+    height: 60%;
+    width: 91%;
+    padding: 0rem;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+
+    color: white;
+
+    overflow-y: scroll;
+
+
+    /* isso aqui é pra tirar a scrollbar aparecendo */
+
+
+
+    #content {
+        overflow-y: scroll;
+
+
+        :-webkit-scrollbar {
+            display: none;
+        }
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+    }
+}
+
+
+.title {
+
+    padding: 0px;
+
+
+}
+
+h1 {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Arial";
+    text-transform: uppercase;
+    opacity: .2;
+    font-size: 70px;
+}
+
+.navbar {
+    border: 2px solid rgb(53, 51, 51);
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+}
+
+
+div {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0px 20px;
+}
+
+main {
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+h2 {
+    padding: 0px 0px 0px 0px;
+
+}
+
+h3 {
+
+    font-size: 20px;
+    padding: 25px
+}
+
+
+
+
+.Contato {
+    width: 90%;
+    color: rgba(0, 0, 0, 0);
+
+}
+
+section {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 0px 20px 20px;
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+
+
+
+#conteudo{
+    color:white
+
+
+
+    .iconRelogio{
+        left: auto;
+    }
+}
+nav a {
+    color: #fff;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(9, 34, 62, 1) 100%, rgba(113, 113, 127, 1) 100%);
+    color: #fff;
+    padding: 10px;
+}

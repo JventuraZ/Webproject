@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+section{
+    /*height:10vh;
+    width: 10%;
+    display:flex;
+    align-items:center;
+    justify-content: center;*/
+}
+
+.relogio{
+    background-color:rgb(255, 255, 255);
+    height: 100px;
+    width:90%;
+    max-width: 100px;
+    border-radius: 50%;
+
+    position: relative;
+    background-image: url(imagens.relogio/Clock.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hour{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 2px;
+    width: 32%;
+    background-color: black;
+    border-radius:50%;
+    transform: rotate(-90deg);
+    transform-origin: left;
+}
+
+.min,
+.sec
+    {   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 10%;
+    background-color: black;
+    border-radius:50%;
+    transform: rotate(-90deg);
+    transform-origin: left;
+}
+

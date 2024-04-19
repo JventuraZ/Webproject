@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color:  rgb(255, 255, 255);
+    lato-regular {
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(7,8,10,1) 100%, rgba(0,136,255,1) 100%);
+  }
+  
+  h1, h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  .input-section {
+    display: grid;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    padding: 100px 10px 0px;
+    margin: px;
+  }
+  
+  .input-section label {
+    
+    font-weight: bold;
+    margin-right: 100px;
+    
+  }
+  
+  .input-section input[type="number"], .input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .input-section button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  .Total
+  {background-color: #4CAF50;
+    padding: 10px;
+    margin: 70px;
+   
+
+  }
+
+
+  .expenses-list {
+    margin: 20px;
+    border: 5px solid rgb(255, 255, 255)
+   
+  
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #4CAF50;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+category-select{
+  color: red;
+}

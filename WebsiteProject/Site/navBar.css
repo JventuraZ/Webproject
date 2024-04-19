@@ -1,0 +1,41 @@
+.navbar {
+
+
+    
+    border: 2px solid rgb(51, 51, 51);
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+
+    
+}
+
+
+div {
+    background-color: black;
+    margin: 0;
+    padding: 1px;
+
+
+}
+
+aside {
+    height: 200px;
+    color: white;
+    overflow-y: scroll;
+}
+
+aside::-webkit-scrollbar {
+    display: none;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
